@@ -5,12 +5,15 @@ body{
 
 .menusettings{
     text-align: right;
-    text-decoration:none;
     font-family: "poppins", sans-serif;
     font-weight:600;
     font-size: 12px;
     padding:10px;
     color:white;
+}
+
+.menusettings a {
+    text-decoration:none;
 }
 
 h1{
@@ -47,7 +50,7 @@ h2{
     width: 25%;
     margin:8% 2%;
     padding:0 2%;
-    float:left;   
+    float:left;
     background-color: white;
     border-radius: 5%;
 }
@@ -57,7 +60,7 @@ h2{
 
 section{
     height: 100%;
-    float: left;
+    overflow: hidden;
 }
 
 .sec-portfolio{
@@ -97,12 +100,12 @@ section{
     margin-right: 60px;
     text-decoration: none;
     background: tomato;
-} 
+}
 .work-inquiry .cmd a {
     color: #fff;
 }
 .lastest{ color:red;
-    
+
 }
 .disign{
     color:rgb(145, 255, 0)
@@ -111,4 +114,20 @@ section{
 .contact-design{
     text-align:center;
     margin:0%;
+}
+
+.why-us {
+    text-align: center;
+}
+
+.why-us + div ul {
+    text-align: center;
+    list-style: none;
+}
+
+.connect {
+    text-align: center;
+    margin: 80px;
+    border: 1px solid #ddd;
+    padding: 10px 30px 20px;
 }
